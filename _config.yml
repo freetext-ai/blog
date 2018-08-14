@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-title: Blog @ Freetext AI  # your site title
-author: Dyuti Barma # You :P
+title: Blog @ FreeText AI  # your site title
+author: FreeText AI # You :P
 description: > # Meta description of Homepage
   A blog for sharing thoughts on technology, science and insights at FreeText AI.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
