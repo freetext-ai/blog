@@ -3,8 +3,8 @@ title: Blog @ FreeText AI  # your site title
 author: FreeText AI # You :P
 description: > # Meta description of Homepage
   A blog for sharing thoughts on technology, science and insights at FreeText AI.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://freetext.ai/blog" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
