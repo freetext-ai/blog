@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Intercom Chat Transcripts Analytics for Customer Insights 
+title: Intercom Chat Analysis for Customer Insights 
 featured-img: intercom 
 mathjax: true
 ---
 
 
-# Analyze Intercom Conversation Transcripts for Customer Behaviour Insights 
+# Analyze Intercom feedback to understand user needs and pain-points
 
 <br/>
 <br/>
@@ -70,7 +70,7 @@ Manual tagging can be an effective tool to perform one-off analysis. However, it
 
 ## Tagging using Text Analysis
 
-Meanwhile, the field of Natural Language Processing has progressed quite a bit in the past few years. We cannot yet have computers comprehend a piece of text or a book like a 
+Meanwhile, the field of Natural Language Processing (text analysis) has progressed quite a bit in the past few years. We cannot yet have computers comprehend a piece of text or a book like a 
 human would. But, we sure can use it to detect recurring patterns in user feedback.
 
 Typically, this is how this would work
