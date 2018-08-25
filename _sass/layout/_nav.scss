@@ -46,7 +46,7 @@
   }
 
   .header__logo--container {
-    width: 58px;
+    width: 200px;
 
     .logo {
       fill: currentColor;
@@ -167,6 +167,8 @@
     padding: .938rem 1rem;
     border: 0;
     height: 100%;
+    font-size: 0.8em;
+    font-weight: 500;
 
     &::after {
       content: "";

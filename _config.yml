@@ -1,10 +1,10 @@
 # SITE CONFIGURATION
-title: Blog @ Freetext AI  # your site title
-author: Dyuti Barma # You :P
+title: Blog @ FreeText AI  # your site title
+author: FreeText AI # You :P
 description: > # Meta description of Homepage
   A blog for sharing thoughts on technology, science and insights at FreeText AI.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://freetext.ai" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
@@ -16,9 +16,9 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - {name: 'Home', link: '/blog'}
-  - {name: 'About', link: 'https://freetext.ai/about'}
-  - {name: 'Contact', link: 'https://freetext.ai/contact'}
+  - {name: 'HOME', link: '/'}
+  - {name: 'ABOUT', link: 'https://freetext.ai/about'}
+  - {name: 'CONTACT', link: 'https://freetext.ai/contact'}
 
 tagline: >
   Blog @ Freetext AI
@@ -31,8 +31,8 @@ twitter_username: FreeTextAI # replace with your_twitter_username or comment to 
 github_username:  freetext-ai # replace with your_github_username or comment to remove link from footer
 #instagram_username: freetext-ai # replace with your_instagram_username or comment to remove link from footer
 
-disqus:
-  shortname: dyutibarma # to enable comments replace with your_disqus_shortname
+# disqus:
+#   shortname: dyutibarma # to enable comments replace with your_disqus_shortname
 
 # google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
 
