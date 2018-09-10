@@ -9,7 +9,6 @@ mathjax: true
 # Analyze Intercom feedback to understand user needs and pain-points
 
 <br/>
-<br/>
 
 We live in the Intercom era.
 
@@ -31,7 +30,11 @@ The broad types of coding can be classified as:
 
 Let's take a look at each of these.
 
+<br/>
+
 ## Manual Tagging
+
+<br/>
 
 This is a completely manual process of content analysis. As the name suggests, it involves humans manually setting up the tagging structure and going through each of the conversations to figure out the correct tags.
 
@@ -67,8 +70,11 @@ Manual tagging can be an effective tool to perform one-off analysis. However, it
 
 5.  __Clustering illusion__ is the belief that a pattern that is spotted in the data is a larger pattern than it actually is. 
 
+<br/>
 
 ## Tagging using Text Analysis
+
+<br />
 
 Meanwhile, the field of Natural Language Processing (text analysis) has progressed quite a bit in the past few years. We cannot yet have computers comprehend a piece of text or a book like a 
 human would. But, we sure can use it to detect recurring patterns in user feedback.
@@ -86,8 +92,11 @@ Once this is done, the benifits of using machines really starts to shine. You ca
 Looking at feedback can be very effective in understanding user behavior and driving product development.
 
 We built FreeText AI are already working with businesses to address some of these issues.
+
+If you would like to know more, do [sign up for a trial](https://freetext.ai).
+
+<br/><br/>
 <br/><br/>
 <br/><br/>
 
-If you would like to know more, do [sign up for a trial](https://freetext.ai).
 
