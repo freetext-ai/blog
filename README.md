@@ -193,6 +193,7 @@ The theme is setup just like a normal Jekyll site! Check out [file structure ove
 git push -u origin master
 git push -f origin master:gh-pages
 ```
+Make sure Settings->custom domain points to "blog.freetext.ai"
 
 ## License
 
