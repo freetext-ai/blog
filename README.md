@@ -186,6 +186,14 @@ To set up your environment to develop this theme, run `bundle install` and `npm 
 
 The theme is setup just like a normal Jekyll site! Check out [file structure overview](#file-structure-overview) for details. To test the theme, run `gulp` and open your browser at `http://localhost:3000`. This starts a Jekyll server using the theme. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to the theme and to the content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
+## Push
+
+
+```sh
+git push -u origin master
+git push -f origin master:gh-pages
+```
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
