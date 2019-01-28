@@ -65,10 +65,17 @@
 
   &__header {
     margin-bottom: 0.75rem;
+    font-size: 0.9rem;
   }
 
   &__meta {
     font-size: 0.875rem;
+  }
+  
+  &__summary{
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: 1px;
   }
 }
 
