@@ -95,9 +95,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.65960439"
-     inkscape:cx="-15.942035"
-     inkscape:cy="329.63557"
+     inkscape:zoom="1.3192088"
+     inkscape:cx="98.706245"
+     inkscape:cy="66.632483"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -123,7 +123,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -909,15 +909,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.31041956px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;word-spacing:0px;fill:#006680;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="52.452637"
-       y="127.37783"
+       x="58.469501"
+       y="126.37502"
        id="text13095-4"><tspan
          sodipodi:role="line"
          id="tspan13093-6"
-         x="52.452637"
-         y="127.37783"
-         style="font-size:6.31041956px;fill:#006680;stroke-width:0.26458332px">Score: 3.0 - 4.4 = <tspan
-   style="fill:#800000"
-   id="tspan13515">-1.4</tspan></tspan></text>
+         x="58.469501"
+         y="126.37502"
+         style="font-size:6.31041956px;fill:#006680;stroke-width:0.26458332px">   4.4 - 3.0 = +1.4</tspan></text>
   </g>
 </svg>
