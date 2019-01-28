@@ -7,7 +7,12 @@ body {
   color: $text-color;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+
+  @include breakpoint($lg) { font-size: 1.1rem }
+  @include breakpoint($xl) { font-size: 1.2rem }
 }
+
+
 
 ::selection {
   color: $bg-color;
