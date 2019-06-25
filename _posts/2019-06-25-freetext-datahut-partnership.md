@@ -16,16 +16,19 @@ The collaboration between Datahut’s expertise in acquiring large scale structu
 
 Commenting on the partnership Tony Paul, co-founder and Head of Sales at  Datahut said.
 
->> "This partnership will help brands unlock new insights about customer feedback and improve their brand equity and sales.  It is the only solution available in the market that can get deep insights at huge scale across multiple online channels, helping brands understand what to do next to improve their reputation and sales."
+> "This partnership will help brands unlock new insights about customer feedback and improve their brand equity and sales.  It is the only solution available in the market that can get deep insights at huge scale across multiple online channels, helping brands understand what to do next to improve their reputation and sales."
 
 Dyuti Barma, co-founder at FreeText said,
 
->> "In the internet age, the voice of the customer is stronger than ever before. It is imperative that businesses not only collect unbiased customer feedback but also understand and appropriately act on it."
+> "In the internet age, the voice of the customer is stronger than ever before. It is imperative that businesses not only collect unbiased customer feedback but also understand and appropriately act on it."
 
 The partnership between FreeText and Datahut shall provide businesses with all the tools they need to listen to consumer feedback from multiple online sources, derive deep actionable insights and build a truly customer-centric company.
 
+<br/>
 
 ## About Datahut
+
+<br/>
 
 Datahut helps businesses get structured data feeds from any website through our cloud-based data as a service platform. You can get unprecedented access to structured web data without writing code, operating software or managing servers. Just take the data and use it for quickly building apps, conducting business analysis and experiment with fresh ideas.
 
