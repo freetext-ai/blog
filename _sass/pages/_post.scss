@@ -1,5 +1,5 @@
 .post-content {
-  max-width: 52.5rem;
+//  max-width: 52.5rem;
   margin: 0 auto;
   padding-top: 2.5em;
 
@@ -37,7 +37,7 @@
   align-items: flex-start;
 
   span {
-    font-size: 0.875rem;
+    font-size: 1.125rem;
     color: $grey;
   }
 
@@ -59,4 +59,41 @@
       }
     }
   }
+}
+
+p {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+h1 {
+  max-width: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h2 {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+ul {
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+h4 {
+  text-align: center;
+  font-size: 0.7rem;
 }

@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-title: Blog @ FreeText AI  # your site title
+title: FreeText AI  # your site title
 author: FreeText AI # You :P
 description: > # Meta description of Homepage
   A blog for sharing thoughts on technology, science and insights at FreeText AI.
@@ -15,20 +15,20 @@ social:
     - https://github.com/freetext-ai
 
 # THEME SETTINGS
-navigation: # Navigation links
-  - {name: 'HOME', link: '/'}
-  - {name: 'ABOUT', link: 'https://freetext.ai/about'}
-  - {name: 'CONTACT', link: 'https://freetext.ai/contact'}
+# navigation: # Navigation links
+#   - {name: 'HOME', link: '/'}
+#   - {name: 'ABOUT', link: 'https://freetext.ai/about'}
+#   - {name: 'CONTACT', link: 'https://freetext.ai/contact'}
 
 tagline: >
-  Blog @ Freetext AI
+  Freetext AI
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: dyuti@freetext.ai # email for form submission
 
 twitter_username: FreeTextAI # replace with your_twitter_username or comment to remove link from footer
-github_username:  freetext-ai # replace with your_github_username or comment to remove link from footer
+#github_username:  freetext-ai # replace with your_github_username or comment to remove link from footer
 #instagram_username: freetext-ai # replace with your_instagram_username or comment to remove link from footer
 
 # disqus:

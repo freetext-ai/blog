@@ -20,9 +20,13 @@
         />
         <noscript><img src="/blog/assets/img/posts/{{post.featured-img}}_thumb.jpg" alt="{{ post.title }}"></noscript>
       </figure>
+    {% elsif page.featured-css-class %}
+      <figure class="post-card__thumb">
+        <div class="{{ page.featured-css-class }}"></div>
+      </figure>
     {% else %}
       <figure class="post-card__thumb">
-        <div class="dark-bg"></div>
+        <div class="dark-bg {{ page.featured-css-class }}"></div>
       </figure>
     {% endif %}
   </a>

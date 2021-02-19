@@ -20,7 +20,9 @@ layout: compress
 {% include header.html %}
 
   {% if page.featured-img %}
-  <div class="hero lazyload" data-bg="/blog/assets/img/posts/{{ page.featured-img }}.jpg" style="filter: grayscale(40%)">
+  <div class="hero lazyload" data-bg="/blog/assets/img/posts/{{ page.featured-img }}.jpg">
+  {% elsif page.featured-css-class %}
+  <div class="{{ page.featured-css-class }} hero">
   {% else %}
   <div class="hero dark-bg">
   {% endif %}
@@ -56,13 +58,13 @@ layout: compress
   </div>
 
   <main class="post__content">
-    <div class="container">
+    <!--<div class="container">-->
       <article class="post-content" itemprop="articleBody">
 
         {{ content }}
 
       </article>
-    </div>
+    <!--</div>-->
 
     {% if site.disqus.shortname %}
 
