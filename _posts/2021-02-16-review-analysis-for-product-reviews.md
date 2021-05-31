@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Review Analysis for Product Reviews
+title: Review Analysis for Amazon Review Analytics
 featured-css-class: blue-gradient-bg
 mathjax: false
 ---
@@ -11,9 +11,9 @@ mathjax: false
 <br/>
 Brands that care about Customer Experience know that support is only a part of the picture. Listening to the customer is super important. How else is a brand supposed to understand what their customers actually want?
 
-Reviews are an important part of the process - they are unprompted (hence not suffering from survey biases), honest and abundantly available. Any brand looking to understand customers from any category need to take a close look at reviews.
+Reviews are an important part of the process - they are unprompted (hence not suffering from survey biases), honest and abundantly available. Any brand looking to understand customers from any category need to take a close look at reviews. Major brands selling on marketplaces will likely have Amazon reviews or any of their marketplaces.
 
-In this article, we will outline the current state of the art methods to analyze reviews.
+In this article, we will outline the current state of the art methods to analyze reviews and also look at AI text mining solutions for customer feedback analytics.
 
 <div style="background: radial-gradient(circle at center, #fff, #fff, #466997);">
 <img src="/blog/assets/img/posts/sources.png" style="max-height: 30rem; max-width: 100%; margin-left:auto; margin-right: auto; display: block; background: white;"/>
@@ -22,7 +22,7 @@ In this article, we will outline the current state of the art methods to analyze
 # Marketplace Overview
 <br/>
 
-Customers speak freely about their product experiences in the places that they buy the product from. Undoubtedly, the biggest online retailer today is Amazon hence Amazon Reviews play a crucial role in customer sentiment. Amazon Reviews are also a goldmine of information for someone trying to understand the nuances of a category.
+Customers speak freely about their product experiences in the places that they buy the product from. Undoubtedly, the biggest online retailer today is Amazon hence Amazon Reviews play a crucial role in customer sentiment. Amazon Reviews are also a goldmine of information for someone trying to understand the nuances of a category. Sentiment analysis on review text along with topic detection can give a broad view of customer sentiment and preferences.
 
 In addition to Amazon reviews, other marketplaces like BestBuy, Target, HomeDepot, Bed Bath & Beyond, etc. may also contain large volumes of reviews depending on the category.
 
@@ -61,7 +61,7 @@ In order to understand the text, Natural Language Processing (NLP) is used. NLP 
 
 Neural Networks is a field of Machine Learning that gathers inspiration from the inner working of the brain to solve problems. Transfer Learning is a sub-field that specializes in leveraging learning from one domain to solve problems in another.
 
-In Neural Networks, Convolutional Neural Networks, LSTMs and more recently Transformers are some of the techniques that are state of the art and can be used to solve many problems.
+In Neural Networks, Convolutional Neural Networks, LSTMs and more recently Transformers are some of the techniques that are state of the art and can be used to solve many problems like sentiment analysis and topic detection.
 Most neural networks these days either use <b>PyTorch</b> or <b>Tensorflow</b>.
 
 The most popular modern <b>open source</b> libraries used are:
@@ -103,6 +103,8 @@ In order to add a source in FreeText AI dashboard, you just have to provide the 
 Alternatively, the entire category can be automatically added instead of adding individual product SKUs.
 
 FreeText AI is designed with scale in mind, so entire categories of products with hundreds of thousands of reviews can be analyzed.
+
+Analysis comprises of review sentiment analysis and topic detection using automated machine learning models.
 
 Once, the products are added and processed (takes a few minutes depending on the number of products) the data is ready to be explored!
 
@@ -153,6 +155,19 @@ Clicking on a topic opens inline all the mentions, with highlights indicated why
 
 In addition to this, searching for specific keywords or terms is also enabled and so is comparison between product groups, with the same goodness of exploration of volume trends and sentiment split reports.
 
+# Challenges
+Let's now take a look at some of the challenges of doing review analysis.
+
+## Data gathering challenges
+The first step to do review analysis is to gather the requried data. Now, the requried data may be split in multiple places. For eg. a brand could have some Amazon reviews, and reviews in their listings on BestBuy, Target and their own D2C website. Typical challenges involve gathering reviews at scale, dealing with technical blockades etc. Another major challenge is to keep up with the changes made to the marketplace website, which can be very frequent at times. Another challenge is to ensure that the data is complete and converted to a standardized format - which is trickier than it sounds.
+
+## Text Analytics challenges
+The next challenge is around text analytics. Sentiment analysis might seem straight forward, except when you consider the edge cases. For example, is being "light" is a good thing or a bad thing? For eg. "The product was too light" - could be a good thing if it is say a laptop, and a bad thing if it is a paper-weight. Likewise, the same word "light" has many connotations - "light" as a noun as in "LED light" or say "light a fire". These kind of ambiguous nuances are filled in natural languages and not handling them right can lead to disastrous outcomes.
+
+## Reporting challenges
+Even after gathering the data, and analyzing the text the problem is not fully solved. Then comes the next step - reporting. Most people understand that reporting involves creating visualizations that make sense. But it doesn't end there - perhaps the most important aspect of reporting that is often overlooked is Aggregation. Aggregation involve combining entities and units into groups that makes sense for reporting. This can be tricky, especially if you consider that the data we are dealing with can be Big Data - with hundreds of thousands of pieces of feedback. Another tricky part of reporting is [understanding the impact](https://freetext.ai/blog/reivew-topic-impact-score/) of each insight from the feedback.
+
+A tool like FreeText AI was explicitly built with these considerations in mind, can has use the core engineering expertise of their team to get around some of these challenges.
 
 <br/>
 <br/>
