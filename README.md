@@ -195,6 +195,8 @@ git push -f origin master:gh-pages
 ```
 Make sure Settings->custom domain points to "blog.freetext.ai"
 
-## License
+git store password using:
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+1. get personal_access_token from https://github.com/settings/tokens
+2. git config remote.origin.url "https://freetext-ai:<personal_access_token>@github.com/>project>
+
