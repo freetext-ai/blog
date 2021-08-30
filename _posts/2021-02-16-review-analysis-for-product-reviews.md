@@ -1,42 +1,66 @@
 ---
 layout: post
-title: Review Analysis for Amazon Review Analytics
+title: How to Do Amazon Review Analysis for Your Brand Using AI
 featured-css-class: blue-gradient-bg
 mathjax: false
+last_modified_at: 2021-08-29 00:00:00 +0530
 ---
 
 
 # Intro
 
 <br/>
-Brands that care about Customer Experience know that support is only a part of the picture. Listening to the customer is super important. How else is a brand supposed to understand what their customers actually want?
+Analyzing customer reviews allows brands to identify potential areas of improvement, gauge overall customer satisfaction, communicate brand messaging, identify products with the most reviews, and much more. However, as the volume and variety of review data continue to grow, effective analysis becomes more challenging.
 
-Reviews are an important part of the process - they are unprompted (hence not suffering from survey biases), honest and abundantly available. Any brand looking to understand customers from any category need to take a close look at reviews. Major brands selling on marketplaces will likely have Amazon reviews or any of their marketplaces.
+When done right, a <b>customer feedback analytics dashboard</b> for your brand will look something like this:
 
-In this article, we will outline the current state of the art methods to analyze reviews and also look at AI text mining solutions for customer feedback analytics.
-
-<div style="background: radial-gradient(circle at center, #fff, #fff, #466997);">
-<img src="/blog/assets/img/posts/sources.png" style="max-height: 30rem; max-width: 100%; margin-left:auto; margin-right: auto; display: block; background: white;"/>
+<div style="background: radial-gradient(circle at center, #fff, #466997);">
+<img src="/blog/assets/img/posts/review_analysis_eg.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;" alt="Review Analysis Dashboard Example"/>
 </div>
-<br/>
-# Marketplace Overview
-<br/>
-
-Customers speak freely about their product experiences in the places that they buy the product from. Undoubtedly, the biggest online retailer today is Amazon hence Amazon Reviews play a crucial role in customer sentiment. Amazon Reviews are also a goldmine of information for someone trying to understand the nuances of a category. Sentiment analysis on review text along with topic detection can give a broad view of customer sentiment and preferences.
-
-In addition to Amazon reviews, other marketplaces like BestBuy, Target, HomeDepot, Bed Bath & Beyond, etc. may also contain large volumes of reviews depending on the category.
-
-For Apps, the Apple App Store reviews and Google Play Store reviews are the major sources with close to 100% of all app reviews flowing into one of these platforms.
-
 <div class="cta">
 <b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://freetext.ai/signup" class="btn">Get Started</a>
 </div>
+
+<br/>
+In this article, we will outline the current state of the art methods to analyze reviews and also look at AI text mining solutions for customer feedback analytics.
+
 <br/>
 
-# Review Analysis
-In order to analyze reviews, broadly there are three steps: Data Gathering, Analysis and Visualization.
+# Review Analysis Process
+Broadly, we can break down the review analsysi process into 3 steps - <b>Data Gathering</b>, <b>Analysis</b> and <b>Reporting</b>.
 
-## Data Gathering / Scraping
+### Step 1: Data Gathering
+This involves extracting data from e-commerce review sites like Amazon, BestBuy, Walmart, Bed Bath & Beyond etc.. This can be tricky because:
+1. Since each site displays reviews differently, a **custom parser** will be required for each site.
+2. **Difficulty** of crawling some sites (like Amazon) is very high.
+3. Custom parsers will need to be **kept up to date with changes** on the marketplaces.
+
+### Step 2: Review Analysis
+In order to detect patterns and actionable insights from a large volume of review data, we need derive structure out of the unstructured text.
+1. <b>Topic Detection</b> or <b>Review Aspect Classification</b> is the process to understanding what is the topic that is spoken about. This can be very tricky to get right. Consider the example of the word "<u><i>light</i></u>" - depending on context the meaning of the word completely changes. For eg. "<i>the headphones are very <u>light</u></i>", "<i>the bruner is easy to <u>light</u></i>", "<i>screen is not visible under the <u>light</u></i>"
+2. <b>Sentiment Detection</b> needs to take the <b>context of the category</b> into account. For eg. the word "<i>loud</i>" can be a positive thing for a speaker or a headphone, but negative for an appliance like a washing machine.
+3. Likewise, we also need to take the context of the review into account - ie. the word "<i>cheap</i>" is positive in "i got it for <i>cheap</i>" and negative in "it is <i>cheaply</i> made"
+
+### Step 3: Reporting
+Though it might seem straightforward, to do justice in report generation for review data can be quite challenging:
+1. Needs to be **simple**, easy to understand - **but comprehensive**
+2. Depth and Breadth - Needs to be broad enough to **cover the whole category**, but should also have the capability to **drill down** into the root cause for any event.
+2. Many **top companies** already have adopted **best practices** - gaining insight into their processes can jump-start the report generation process.
+
+# Step 1: Data Gathering
+<div style="background: radial-gradient(circle at center, #fff, #fff, #466997);">
+<img src="/blog/assets/img/posts/sources.png" style="max-height: 30rem; max-width: 100%; margin-left:auto; margin-right: auto; display: block; background: white;" alt="Marketplace Sources"/>
+</div>
+<div class="cta">
+<b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://freetext.ai/signup" class="btn">Get Started</a>
+</div>
+
+<br/>
+
+Extracting this data review would be a time consuming process, and requires constant maintenance.
+
+Customers speak freely about their product experiences in the places that they buy the product from. Undoubtedly, the biggest online retailer today is <b>Amazon</b> hence Amazon Reviews play a crucial role in customer sentiment. In addition to Amazon review data, other marketplaces like <b>BestBuy</b>, <b>Target</b>, <b>HomeDepot</b>, <b>Bed Bath & Beyond</b>, etc. may also contain large volumes of reviews depending on the category.
+
 In this step, we understand the process of gathering the data from the various marketplace sources.
 Following are the tools commonly used for scraping from the web:
 - [Selenium](https://www.selenium.dev/) - Browser automation based scraping
@@ -53,9 +77,10 @@ Following are the tools commonly used for scraping from the web:
 	-	[Nokogiri](https://nokogiri.org/) - HTML/DOM parsing
 
 The right tool set required to scrape from a website could be different based on the tech used on the website.
+<br/>
 
-## Analysis
-In context of review analysis, the biggest problems to solve are Aspect Classification (identifying the topic being spoken about) and Sentiment Classification (inferring whether the user is complaining or praising).
+# Step 2: Review and Rating Analysis
+In context of review analysis, the biggest problems to solve are <b>Aspect Classification</b> (identifying the topic being spoken about) and <b>Sentiment Classification</b> (inferring whether the user is complaining or praising).
 
 In order to understand the text, Natural Language Processing (NLP) is used. NLP is a field that deals with gathering information from unstructured text. As a field has experienced a renaissance in the past few years with the application of Neural Networks and Transfer Learning.
 
@@ -72,13 +97,13 @@ The most popular modern <b>open source</b> libraries used are:
 
 The machine learning process usually looks like the following:
 <div style="background: radial-gradient(circle at center, #fff, #466997);">
-<img src="/blog/assets/img/posts/blog_post_nn_block_diagram.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;"/>
+<img src="/blog/assets/img/posts/blog_post_nn_block_diagram.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;" alt="Neural Networks Block Diagram"/>
 </div>
 #### Typical Machine Learning process
 
 Using an off the shelf SaaS solution for these usually offloads these steps and saves huge development costs.
 
-## Report Generation
+# Step 3: Report Generation
 First step here is to figure out the right view and visualizations required to get the most out of the data. This is often the most challenging part, and is often overlooked.
 
 The data is then transferred to a visualization platform like Tableau, Qlik, ChartIO or Google Data Studio.
@@ -97,7 +122,7 @@ With FreeText AI, brands do not have to worry about data gathering, analysis and
 
 In order to add a source in FreeText AI dashboard, you just have to provide the URLs of the products.
 
-<img src="/blog/assets/img/posts/add_products.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;"/>
+<img src="/blog/assets/img/posts/add_products.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;" alt="Add Products Screenshot"/>
 #### Add products by URL
 
 Alternatively, the entire category can be automatically added instead of adding individual product SKUs.
@@ -111,7 +136,7 @@ Once, the products are added and processed (takes a few minutes depending on the
 Let’s take a look at the overview dashboard for an individual product
 
 <div style="background: radial-gradient(circle at center, #fff, #fff, #466997);">
-<img src="/blog/assets/img/posts/product_report.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;"/>
+<img src="/blog/assets/img/posts/product_report.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;" alt="Product Report Example"/>
 </div>
 #### Product view in FreeText AI Dashboard
 
@@ -126,21 +151,21 @@ We can also realign our focus and create this report for only negative reviews, 
 
 
 
-<img src="/blog/assets/img/posts/screenshot-filters.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;"/>
+<img src="/blog/assets/img/posts/screenshot-filters.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;" alt="Filters Screenshot"/>
 #### Filter Records
 
 Zooming out, there could be trends on a product group - say a brand or a sub-category level - that could reveal interesting consumer patterns as well. Trends that might not be obvious on a product level could reveal themselves while looking at the category as a whole.
 
 
 <div style="background: radial-gradient(circle at center, #fff, #466997);">
-<img src="/blog/assets/img/posts/category-screenshot.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;"/>
+<img src="/blog/assets/img/posts/category-screenshot.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;" alt="Category Screenshot"/>
 </div>
 #### Product Group Report
 
 Another way to look at this is to zoom in and understand what exactly users are saying. This is where the Explore view comes in - this view focuses on exploring just what the users are saying in the text.
 
 <div style="background: radial-gradient(circle at center, #fff, #466997);">
-<img src="/blog/assets/img/posts/screenshot-topics_table.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;"/>
+<img src="/blog/assets/img/posts/screenshot-topics_table.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;" alt="Topics Table Screenshot"/>
 </div>
 #### Topics Explore Table
 
@@ -150,7 +175,7 @@ As you can see, all the topics and sub-topics mentioned are categorized. The sen
 Clicking on a topic opens inline all the mentions, with highlights indicated why the AI thought a particular text was classified into the topic. This also allows us to read verbatim of the text and actually read the contents as the user has exactly stated.
 
 
-<img src="/blog/assets/img/posts/demogif.gif" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;"/>
+<img src="/blog/assets/img/posts/demogif.gif" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;" alt="Review Explore Animation"/>
 #### Explore Mentions and Highlights
 
 In addition to this, searching for specific keywords or terms is also enabled and so is comparison between product groups, with the same goodness of exploration of volume trends and sentiment split reports.

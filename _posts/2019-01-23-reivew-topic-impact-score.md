@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Measuring the Impact of Topics on Product Rating
-featured-img: scorecomputationback 
+featured-img: scorecomputationback
 mathjax: true
+last_modified_at: 2019-01-23 00:00:00 +0530
 ---
 
 
@@ -34,7 +35,7 @@ For instance, consider a product A, with one of the topics, __Battery__, having 
 The computation of the Net Impact Score largely takes into account the following factors -
 
 1. __Importance of each topic__ i.e volume of reviews that mention that topic as a fraction of total reviews.
-2. __Sentiment__ of each mention of the topic 
+2. __Sentiment__ of each mention of the topic
 3. __Topical sentiment distribution__, esp when compared with the overall sentiment distribution of the product
 4. __Movement in avg. star rating__, as explained by the above signals
 
@@ -72,7 +73,7 @@ The Net Impact metric has the following desirable properties:
 * since the unit of the metric is in  __stars__, it is easy to interpret as opposed to other confidence measures
 * volume weighted ie. inherently takes the volume of the subset wrt superset into account
 * takes the phrase based sentiment into account
-* simple and easy to explain computation 
+* simple and easy to explain computation
 * the same method can be used in any scenario where we try to compute the rating impact of a subset of reviews (for eg. the impact of rating of individual products on a brand's overall rating)
 
 <br/><br/>

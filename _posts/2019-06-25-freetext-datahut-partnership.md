@@ -1,8 +1,9 @@
 ---
 layout: post
-title: FreeText AI Datahut Strategic Partnership 
-featured-img: datahut-freetext 
+title: FreeText AI Datahut Strategic Partnership
+featured-img: datahut-freetext
 mathjax: true
+last_modified_at: 2019-06-25 00:00:00 +0530
 ---
 
 
@@ -10,7 +11,7 @@ mathjax: true
 
 <br/>
 
-[Datahut](https://datahut.co), an enterprise-grade web data extraction platform and [Freetext AI](https://freetext.ai), a deep learning based text analysis platform, today announced a new strategic partnership to help brands understand unstructured consumer feedback and in turn improve their online reputation and sales. This partnership will combine Datahut’s data extraction capabilities with Freetext’s platform for mining deep meaningful insights from unstructured textual feedback data. 
+[Datahut](https://datahut.co), an enterprise-grade web data extraction platform and [Freetext AI](https://freetext.ai), a deep learning based text analysis platform, today announced a new strategic partnership to help brands understand unstructured consumer feedback and in turn improve their online reputation and sales. This partnership will combine Datahut’s data extraction capabilities with Freetext’s platform for mining deep meaningful insights from unstructured textual feedback data.
 
 The collaboration between Datahut’s expertise in acquiring large scale structured data from the web and the Freetext.AI’s cutting edge NLP and Machine Learning technology will provide greater value to businesses looking for data-driven actionable insights from unstructured textual feedback data. Consumer feedback data is often scattered at various distributed locations, internally within the organization as well as on the web. This feedback, in the form of user reviews, chats, emails, and surveys, can be used to improve customer satisfaction, draw effective business roadmaps and improve the existing product based on consumer feedback.
 
