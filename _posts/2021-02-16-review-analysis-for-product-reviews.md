@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Do Amazon Review Analysis for Your Brand Using AI
+title: Amazon Review Analysis
 featured-css-class: blue-gradient-bg
 mathjax: false
 last_modified_at: 2021-08-29 00:00:00 +0530
