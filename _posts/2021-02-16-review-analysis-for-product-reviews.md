@@ -18,7 +18,7 @@ When done right, a <b>customer feedback analytics dashboard</b> for your brand w
 <img src="/blog/assets/img/posts/review_analysis_eg.png" style="margin-left: auto; margin-right: auto; display: block; max-height: 100%;" alt="Review Analysis Dashboard Example"/>
 </div>
 <div class="cta">
-<b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://currents.ai/signup" class="btn">Get Started</a>
+<b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://currents.ai/signup" class="btn">Start Free Trial</a>
 </div>
 
 <br/>
@@ -52,7 +52,7 @@ Though it might seem straightforward, to do justice in report generation for rev
 <img src="/blog/assets/img/posts/sources.png" style="max-height: 30rem; max-width: 100%; margin-left:auto; margin-right: auto; display: block; background: white;" alt="Marketplace Sources"/>
 </div>
 <div class="cta">
-<b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://currents.ai/signup" class="btn">Get Started</a>
+<b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://currents.ai/signup" class="btn">Start Free Trial</a>
 </div>
 
 <br/>
@@ -116,7 +116,7 @@ FreeText AI is a turnkey solution for brands to gather all their feedback in one
 With FreeText AI, brands do not have to worry about data gathering, analysis and report generation. Instead, all the data is exposed through an easy to use dead-simple dashboard.
 
 <div class="cta">
-<b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://currents.ai/signup" class="btn">Get Started</a>
+<b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://currents.ai/signup" class="btn">Start Free Trial</a>
 </div>
 
 
@@ -201,7 +201,7 @@ A tool like FreeText AI was explicitly built with these considerations in mind, 
 Understanding reviews is key to unlocking customer value. Modern review analysis tools leverage technologies like Neural Networks to enable mining insights from marketplace reviews.
 
 <div class="cta">
-<b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://currents.ai/signup" class="btn">Get Started</a>
+<b>Start analyzing feedback now!&nbsp;&nbsp;</b><a href="https://currents.ai/signup" class="btn">Start Free Trial</a>
 </div>
 <br/>
 
